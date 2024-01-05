@@ -13,7 +13,7 @@ This is my solution for the full-stack developer test. The application is built 
 
 ## Install All (node modules, migration, seeder)
 1. change .env
-2. ```bash
+2. use bash
 3. ./install.sh
 4. DONE
 
