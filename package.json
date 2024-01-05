@@ -1,0 +1,38 @@
+{
+  "name": "aop_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "seeder": "knex seed:run",
+    "migration": "knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "bcrypt": "^5.1.1",
+    "cjs-to-es6": "^2.0.1",
+    "dotenv": "^16.3.1",
+    "faker": "5.5.3",
+    "jsonwebtoken": "^9.0.2",
+    "jwt": "^0.2.0",
+    "knex": "^3.1.0",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-jwt": "^4.0.4",
+    "koa-router": "^12.0.1",
+    "nodemon": "^3.0.2",
+    "objection": "^3.1.3",
+    "pg": "^8.11.3",
+    "postgres": "^3.4.3",
+    "prettier": "^3.1.1",
+    "sqlite3": "^5.1.7-rc.0"
+  }
+}
